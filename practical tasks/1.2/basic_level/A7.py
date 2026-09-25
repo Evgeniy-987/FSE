@@ -3,7 +3,7 @@ y1 = int(input())
 x2 = int(input())
 y2 = int(input())
 
-color1 = (x1 + y1) % 2   # 0 — белая, 1 — чёрная
+color1 = (x1 + y1) % 2   
 color2 = (x2 + y2) % 2
 
 if color1 == color2:
